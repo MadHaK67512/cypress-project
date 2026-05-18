@@ -17,26 +17,6 @@
 
 ---
 
-## Project Structure
-
-cypress/
-├── e2e/
-│ ├── task1/
-│ │ ├── login.cy.js # Login Tests (3 test cases)
-│ │ ├── navigation.cy.js # Navigation Tests (2 test cases)
-│ │ └── form.cy.js # Form Test (1 test case)
-│ └── task2/
-│ ├── assertions.cy.js # Assertion types + negative assertion
-│ └── aliases.cy.js # Aliases + Custom command usage
-└── support/
-├── commands.js # Custom cy.login() command
-└── e2e.js
-cypress.config.js
-package.json
-README.md
-
----
-
 ## How to Run Tests
 
 ### Prerequisites
